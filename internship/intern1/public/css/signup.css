@@ -1,0 +1,25 @@
+body {
+    background-image: url('download.jpeg');
+    /* background-repeat: no-repeat; */
+    background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.container {
+    
+    position: relative;
+    left: 20%;
+    top: 100px;
+    background-color: aqua;
+    display: inline-block;
+    padding: 15px;
+    
+    
+}
+
+.inp {
+    padding: 10px;
+    margin: 7px;
+
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Signup Page</title>
+        <link href="/css/signup.css" rel="stylesheet">
+    </head>
+    <body>
+
+        <div class="container">
+            <div>
+            <h1>Signup-(New User)</h1>
+            <form action="/signup" method="POST">
+                <input class="inp" type="text" name="username" placeholder="Enter unique username" required><br>
+                <input class="inp" type="password" name="password" placeholder="Enter Password" required><br>
+                <select class="inp" name="type">
+                    <option value="typeA">Type-A</option>
+                    <option value="typeB">Type-B</option>
+                    <option value="typeC">Type-C</option>
+                </select><br>
+
+                <input class="inp" type="submit" value="Signup">
+            </form>
+            </div>
+
+         
+        <p>If you already signed up.. Login here</p>
+
+        <div>
+            <form action="/login" method="GET">
+                <input class="inp" type="submit" value="Login">
+            </form>
+        </div>
+        </div>
+    </body>
+</html>
